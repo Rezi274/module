@@ -6,4 +6,4 @@ const table = new Table({
   data: [...data],
 });
 const Rezi = document.getElementById("Rezi");
-table.render(Rezi);
+table.proses(Rezi);
