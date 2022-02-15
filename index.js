@@ -1,7 +1,9 @@
-/*const coba = require('./module');
-console.log(new coba.Table(),coba.judulTabel,coba.badanTabel,coba.proses,coba.table);*/
+import Table from "./module.js";
+import { columns, data } from "./module.js";
 
-
-import {Table, judulTabel, badanTabel, proses, table, rezi} from "./module";
-
-console.log(new Table, judulTabel(), badanTabel(), proses(), table(),rezi);
+const table = new Table({
+  columns: [...columns],
+  data: [...data],
+});
+const Rezi = document.getElementById("Rezi");
+table.render(Rezi);
