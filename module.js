@@ -44,8 +44,8 @@ export default class Table{
     ['Nasya', 'Nasya15@gmail.com',   '082263519356']
   ];
 
-const rezi = document.getElementById("Rezi");
-table.proses(Rezi);
+/*const rezi = document.getElementById("Rezi");
+table.proses(Rezi);*/
 
 /*
 module.exports.Table = Table;
