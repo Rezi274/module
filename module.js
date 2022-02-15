@@ -48,9 +48,18 @@ const table = new Table({
 const rezi = document.getElementById("Rezi");
 table.proses(Rezi);
 
+/*
 module.exports.Table = Table;
 module.exports.judulTabel = judulTabel;
 module.exports.badanTabel = badanTabel;
 module.exports.proses = proses;
 module.exports.table = table;
+*/
 
+export { 
+	Table, 
+	judulTabel,
+	badanTabel,
+	proses,
+	table,
+	rezi };
